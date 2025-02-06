@@ -48,22 +48,22 @@ export default function ContactPopup() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"
                 required
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"
                 required
               />
               <input
                 type="text"
                 placeholder="Company Name (Optional)"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"
               />
               <select
-                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary outline-none"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 outline-none"
                 required
               >
                 <option value="">Interested In</option>
@@ -73,7 +73,7 @@ export default function ContactPopup() {
               </select>
               <button
                 type="submit"
-                className="w-full bg-primary text-white py-3 rounded-lg font-semibold hover:bg-primary-dark transition duration-300"
+                className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition duration-300"
               >
                 Subscribe Now
               </button>
